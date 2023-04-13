@@ -42,4 +42,6 @@ window.onload = function ()
         }, 124000);
     } 
   }
+  document.getElementById("audio").volume = 0.2;
 };
+

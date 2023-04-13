@@ -98,19 +98,49 @@ body,html {
   width: 100vw;
   text-align: center;
 }
-
+#mainText h1{
+  font-size: 2.5em !important;
+  color: yellow;
+}
 p {
-  color: #135c85;
+  color: #0A1172;
   font-size: 2rem;
+  font-weight:bolder; 
+}
+#occassion{
+  color: #0A1172;
+  font-size: 2.5rem;
+  font-weight:bolder;
+}
+#tagline{
+  color:white;
+}
+#jyanti{
+  color:white;
+  font-size: 2.7rem;
+  font-weight: bold;
 }
 
 h1 {
   margin-top: -2vh;
   font-size: 3rem !important;
 }
+#Tline{
+  font-size:2em;
+}
 
 #logo{
+  height:12vh;
+  margin-top: 1vh;
+}
+#glogo{
+  text-align: right;
+  height:12vh;
+}
+#alogo{
+  text-align: right;
   height:15vh;
+  margin-left: 70vw;
 }
 #venueText{
     position: fixed;
@@ -131,6 +161,7 @@ h1 {
   color: white;
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
+  background-color: #0000008a;
 }
 
 .topleft {
@@ -156,4 +187,16 @@ h1 {
 hr {
   margin: auto;
   width: 40%;
+}
+#alogo{
+  position: relative;
+  bottom: 116px;
+  left: 293px;
+}
+.occ1{
+  padding-top: 2rem;
+  font-size: 1.6em;
+}
+.lets{
+  font-size: 1.6em;
 }
